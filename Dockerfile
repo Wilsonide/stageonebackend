@@ -8,7 +8,7 @@ ADD . /app
 
 # Install the application dependencies.
 WORKDIR /app
-RUN uv sync --locked --all-extras
+RUN uv sync
 EXPOSE 8000
 
 # Run the application.
